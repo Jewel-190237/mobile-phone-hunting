@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Hunting</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main class="container mx-auto mt-8">
+        <!--Find Search Result -->
+        <section class="bg-gray-100 p-4 m-4">
+            <input id="input-data" type="text" placeholder="Search here" class="input input-bordered w-full max-w-xs" />
+            <button onclick="handleSearch()" class="btn bg-accent text-white">Search</button>
+
+        </section>
+        <section>
+            <!-- Show search Result -->
+            <div id="phone-container" class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2">
+            </div>
+            <button onclick="" id="show-all-phone" class="btn bg-accent hidden text-white">Show All</button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/phone.js"></script>
+</body>
+
+</html>
